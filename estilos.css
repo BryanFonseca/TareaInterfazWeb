@@ -1,0 +1,64 @@
+body{
+    font-family: 'Patrick Hand', cursive;
+}
+h2{
+    font-weight: 400;
+    font-size: 35px;
+}
+p{
+    font-weight: 300;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.column{
+    background: #3498db;
+    color: #bdc3c7;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgb(70, 70, 70);
+    width: 23%;
+    box-sizing: border-box;
+}
+.price{
+    font-size: 60px;
+    color: #bdc3c7;
+    margin-top: 50px;
+}
+.btn-price{
+    background: #27ae60;
+    display: block;
+    padding: 10px;
+    color: #bdc3c7;
+    text-decoration: none;
+    border-radius: 6px;
+}
+.btn-price:hover{
+    background: #1abc9c; 
+}
+.arriba{
+    margin-bottom: 11px;
+}
+
+@media (max-width: 1070px){
+    .column{
+        width: 45%;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 600px){
+    .column{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
